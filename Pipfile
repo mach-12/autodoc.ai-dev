@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+gh-md-to-html = {extras = ["offline_conversion"], version = "*"}
+openai = "*"
+streamlit = "*"
 
 [dev-packages]
 
