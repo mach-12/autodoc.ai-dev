@@ -9,9 +9,7 @@ def getExplanation(prompt, tokens):
     """
 
     # Set the API key
-    # openai.api_key = "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"
-    openai.api_key = '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'
-
+ 
     parameters = {
         'model' : "text-davinci-003",
         'prompt' : prompt,
